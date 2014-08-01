@@ -1,0 +1,495 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04E8BAEA1986088000A4E213 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04E8BAE91986088000A4E213 /* iAd.framework */; };
+		B1535DFD1979F49E0076CCAF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1535DFC1979F49E0076CCAF /* Foundation.framework */; };
+		B1535DFF1979F49E0076CCAF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1535DFE1979F49E0076CCAF /* CoreGraphics.framework */; };
+		B1535E011979F49E0076CCAF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1535E001979F49E0076CCAF /* UIKit.framework */; };
+		B1535E071979F49E0076CCAF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B1535E051979F49E0076CCAF /* InfoPlist.strings */; };
+		B1535E091979F49E0076CCAF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B1535E081979F49E0076CCAF /* main.m */; };
+		B1535E0D1979F49E0076CCAF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B1535E0C1979F49E0076CCAF /* AppDelegate.m */; };
+		B1535E101979F49E0076CCAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1535E0E1979F49E0076CCAF /* Main.storyboard */; };
+		B1535E131979F49E0076CCAF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1535E121979F49E0076CCAF /* ViewController.m */; };
+		B1535E151979F49E0076CCAF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1535E141979F49E0076CCAF /* Images.xcassets */; };
+		B1535E1C1979F49E0076CCAF /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1535E1B1979F49E0076CCAF /* XCTest.framework */; };
+		B1535E1D1979F49E0076CCAF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1535DFC1979F49E0076CCAF /* Foundation.framework */; };
+		B1535E1E1979F49E0076CCAF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1535E001979F49E0076CCAF /* UIKit.framework */; };
+		B1535E261979F49E0076CCAF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B1535E241979F49E0076CCAF /* InfoPlist.strings */; };
+		B1535E281979F49E0076CCAF /* AntakshariTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B1535E271979F49E0076CCAF /* AntakshariTests.m */; };
+		B1535E361979FE5D0076CCAF /* ConfigurationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1535E351979FE5D0076CCAF /* ConfigurationViewController.m */; };
+		B1535E39197A02E50076CCAF /* GameplayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1535E38197A02E50076CCAF /* GameplayViewController.m */; };
+		B1535E3C197A079B0076CCAF /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1535E3B197A079B0076CCAF /* WebViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B1535E1F1979F49E0076CCAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B1535DF11979F49E0076CCAF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B1535DF81979F49E0076CCAF;
+			remoteInfo = Antakshari;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04E8BAE91986088000A4E213 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		B1535DF91979F49E0076CCAF /* Antakshari.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Antakshari.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1535DFC1979F49E0076CCAF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B1535DFE1979F49E0076CCAF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B1535E001979F49E0076CCAF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B1535E041979F49E0076CCAF /* Antakshari-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Antakshari-Info.plist"; sourceTree = "<group>"; };
+		B1535E061979F49E0076CCAF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B1535E081979F49E0076CCAF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B1535E0A1979F49E0076CCAF /* Antakshari-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Antakshari-Prefix.pch"; sourceTree = "<group>"; };
+		B1535E0B1979F49E0076CCAF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B1535E0C1979F49E0076CCAF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B1535E0F1979F49E0076CCAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B1535E111979F49E0076CCAF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B1535E121979F49E0076CCAF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B1535E141979F49E0076CCAF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B1535E1A1979F49E0076CCAF /* AntakshariTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AntakshariTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1535E1B1979F49E0076CCAF /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		B1535E231979F49E0076CCAF /* AntakshariTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AntakshariTests-Info.plist"; sourceTree = "<group>"; };
+		B1535E251979F49E0076CCAF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B1535E271979F49E0076CCAF /* AntakshariTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AntakshariTests.m; sourceTree = "<group>"; };
+		B1535E341979FE5D0076CCAF /* ConfigurationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ConfigurationViewController.h; path = ../ConfigurationViewController.h; sourceTree = "<group>"; };
+		B1535E351979FE5D0076CCAF /* ConfigurationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ConfigurationViewController.m; path = ../ConfigurationViewController.m; sourceTree = "<group>"; };
+		B1535E37197A02E50076CCAF /* GameplayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameplayViewController.h; sourceTree = "<group>"; };
+		B1535E38197A02E50076CCAF /* GameplayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameplayViewController.m; sourceTree = "<group>"; };
+		B1535E3A197A079B0076CCAF /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		B1535E3B197A079B0076CCAF /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B1535DF61979F49E0076CCAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04E8BAEA1986088000A4E213 /* iAd.framework in Frameworks */,
+				B1535DFF1979F49E0076CCAF /* CoreGraphics.framework in Frameworks */,
+				B1535E011979F49E0076CCAF /* UIKit.framework in Frameworks */,
+				B1535DFD1979F49E0076CCAF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1535E171979F49E0076CCAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1535E1C1979F49E0076CCAF /* XCTest.framework in Frameworks */,
+				B1535E1E1979F49E0076CCAF /* UIKit.framework in Frameworks */,
+				B1535E1D1979F49E0076CCAF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B1535DF01979F49E0076CCAF = {
+			isa = PBXGroup;
+			children = (
+				B1535E021979F49E0076CCAF /* Antakshari */,
+				B1535E211979F49E0076CCAF /* AntakshariTests */,
+				B1535DFB1979F49E0076CCAF /* Frameworks */,
+				B1535DFA1979F49E0076CCAF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B1535DFA1979F49E0076CCAF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B1535DF91979F49E0076CCAF /* Antakshari.app */,
+				B1535E1A1979F49E0076CCAF /* AntakshariTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B1535DFB1979F49E0076CCAF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04E8BAE91986088000A4E213 /* iAd.framework */,
+				B1535DFC1979F49E0076CCAF /* Foundation.framework */,
+				B1535DFE1979F49E0076CCAF /* CoreGraphics.framework */,
+				B1535E001979F49E0076CCAF /* UIKit.framework */,
+				B1535E1B1979F49E0076CCAF /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B1535E021979F49E0076CCAF /* Antakshari */ = {
+			isa = PBXGroup;
+			children = (
+				B1535E0B1979F49E0076CCAF /* AppDelegate.h */,
+				B1535E0C1979F49E0076CCAF /* AppDelegate.m */,
+				B1535E0E1979F49E0076CCAF /* Main.storyboard */,
+				B1535E3A197A079B0076CCAF /* WebViewController.h */,
+				B1535E3B197A079B0076CCAF /* WebViewController.m */,
+				B1535E37197A02E50076CCAF /* GameplayViewController.h */,
+				B1535E38197A02E50076CCAF /* GameplayViewController.m */,
+				B1535E111979F49E0076CCAF /* ViewController.h */,
+				B1535E121979F49E0076CCAF /* ViewController.m */,
+				B1535E341979FE5D0076CCAF /* ConfigurationViewController.h */,
+				B1535E351979FE5D0076CCAF /* ConfigurationViewController.m */,
+				B1535E141979F49E0076CCAF /* Images.xcassets */,
+				B1535E031979F49E0076CCAF /* Supporting Files */,
+			);
+			path = Antakshari;
+			sourceTree = "<group>";
+		};
+		B1535E031979F49E0076CCAF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B1535E041979F49E0076CCAF /* Antakshari-Info.plist */,
+				B1535E051979F49E0076CCAF /* InfoPlist.strings */,
+				B1535E081979F49E0076CCAF /* main.m */,
+				B1535E0A1979F49E0076CCAF /* Antakshari-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B1535E211979F49E0076CCAF /* AntakshariTests */ = {
+			isa = PBXGroup;
+			children = (
+				B1535E271979F49E0076CCAF /* AntakshariTests.m */,
+				B1535E221979F49E0076CCAF /* Supporting Files */,
+			);
+			path = AntakshariTests;
+			sourceTree = "<group>";
+		};
+		B1535E221979F49E0076CCAF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B1535E231979F49E0076CCAF /* AntakshariTests-Info.plist */,
+				B1535E241979F49E0076CCAF /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B1535DF81979F49E0076CCAF /* Antakshari */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1535E2B1979F49E0076CCAF /* Build configuration list for PBXNativeTarget "Antakshari" */;
+			buildPhases = (
+				B1535DF51979F49E0076CCAF /* Sources */,
+				B1535DF61979F49E0076CCAF /* Frameworks */,
+				B1535DF71979F49E0076CCAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Antakshari;
+			productName = Antakshari;
+			productReference = B1535DF91979F49E0076CCAF /* Antakshari.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B1535E191979F49E0076CCAF /* AntakshariTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1535E2E1979F49E0076CCAF /* Build configuration list for PBXNativeTarget "AntakshariTests" */;
+			buildPhases = (
+				B1535E161979F49E0076CCAF /* Sources */,
+				B1535E171979F49E0076CCAF /* Frameworks */,
+				B1535E181979F49E0076CCAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B1535E201979F49E0076CCAF /* PBXTargetDependency */,
+			);
+			name = AntakshariTests;
+			productName = AntakshariTests;
+			productReference = B1535E1A1979F49E0076CCAF /* AntakshariTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B1535DF11979F49E0076CCAF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Chaya Nanavati";
+				TargetAttributes = {
+					B1535E191979F49E0076CCAF = {
+						TestTargetID = B1535DF81979F49E0076CCAF;
+					};
+				};
+			};
+			buildConfigurationList = B1535DF41979F49E0076CCAF /* Build configuration list for PBXProject "Antakshari" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B1535DF01979F49E0076CCAF;
+			productRefGroup = B1535DFA1979F49E0076CCAF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B1535DF81979F49E0076CCAF /* Antakshari */,
+				B1535E191979F49E0076CCAF /* AntakshariTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B1535DF71979F49E0076CCAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1535E151979F49E0076CCAF /* Images.xcassets in Resources */,
+				B1535E071979F49E0076CCAF /* InfoPlist.strings in Resources */,
+				B1535E101979F49E0076CCAF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1535E181979F49E0076CCAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1535E261979F49E0076CCAF /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B1535DF51979F49E0076CCAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1535E131979F49E0076CCAF /* ViewController.m in Sources */,
+				B1535E3C197A079B0076CCAF /* WebViewController.m in Sources */,
+				B1535E0D1979F49E0076CCAF /* AppDelegate.m in Sources */,
+				B1535E39197A02E50076CCAF /* GameplayViewController.m in Sources */,
+				B1535E091979F49E0076CCAF /* main.m in Sources */,
+				B1535E361979FE5D0076CCAF /* ConfigurationViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1535E161979F49E0076CCAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1535E281979F49E0076CCAF /* AntakshariTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B1535E201979F49E0076CCAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B1535DF81979F49E0076CCAF /* Antakshari */;
+			targetProxy = B1535E1F1979F49E0076CCAF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B1535E051979F49E0076CCAF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B1535E061979F49E0076CCAF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B1535E0E1979F49E0076CCAF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B1535E0F1979F49E0076CCAF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B1535E241979F49E0076CCAF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B1535E251979F49E0076CCAF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B1535E291979F49E0076CCAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B1535E2A1979F49E0076CCAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B1535E2C1979F49E0076CCAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Antakshari/Antakshari-Prefix.pch";
+				INFOPLIST_FILE = "Antakshari/Antakshari-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B1535E2D1979F49E0076CCAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Antakshari/Antakshari-Prefix.pch";
+				INFOPLIST_FILE = "Antakshari/Antakshari-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B1535E2F1979F49E0076CCAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Antakshari.app/Antakshari";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Antakshari/Antakshari-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "AntakshariTests/AntakshariTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		B1535E301979F49E0076CCAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Antakshari.app/Antakshari";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Antakshari/Antakshari-Prefix.pch";
+				INFOPLIST_FILE = "AntakshariTests/AntakshariTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B1535DF41979F49E0076CCAF /* Build configuration list for PBXProject "Antakshari" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1535E291979F49E0076CCAF /* Debug */,
+				B1535E2A1979F49E0076CCAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1535E2B1979F49E0076CCAF /* Build configuration list for PBXNativeTarget "Antakshari" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1535E2C1979F49E0076CCAF /* Debug */,
+				B1535E2D1979F49E0076CCAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1535E2E1979F49E0076CCAF /* Build configuration list for PBXNativeTarget "AntakshariTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1535E2F1979F49E0076CCAF /* Debug */,
+				B1535E301979F49E0076CCAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B1535DF11979F49E0076CCAF /* Project object */;
+}
